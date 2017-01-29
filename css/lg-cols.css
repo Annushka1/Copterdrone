@@ -411,7 +411,7 @@ input, textarea, select {
 
 /*advantages*/
 .advantages-items li {
-  display: inline-block;
+  display: block;
   font-size: 19px;
   position: relative;
   height: 20px;
@@ -438,24 +438,31 @@ input, textarea, select {
   height: 60px;
   width: 60px;
   top: -80px;
-  left: 30%;
-  background-image: url(../img/gps.jpg);
 }
 
-.adnantages-gps:after {
+.advantages-gps:after {
   background-image: url(../img/gps.jpg);
-    content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: -80px;
-  left: 30%;
+  left: 40px;
 }
 
-.adnantages-camera:after {
+.advantages-camera:after {
   background-image: url(../img/camera.jpg);
+  left: 60px;
 }
 
-.adnantages-timer:after {
+.advantages-timer:after {
   background-image: url(../img/time.jpg);
+  left: 70px;
+}
+
+
+
+
+/*consult*/
+.consult {
+  background-image: url(../img/main1921.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 470px 0 50px 0;
 }
