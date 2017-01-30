@@ -317,7 +317,7 @@ input, textarea, select {
   width: 132px;
   position: absolute;
   top: 22px;
-  right: -70px;
+  right: 250px;
 }
 
 .btn-red {
@@ -421,8 +421,9 @@ input, textarea, select {
 }
 
 .advantages-items {
-  margin-top: 140px;
+  margin-top: 100px;
   position: relative;
+  margin-bottom: 80px;
 }
 
 .advantages-items:before {
@@ -430,32 +431,26 @@ input, textarea, select {
   position: absolute;
   width: 980px;
   height: 1px;
-  top: -100px;
-  left: 110px;
+  top: -70px;
+  left: 90px;
   background-color: #ccc;
 }
 
-.advantages-items li:after {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: -80px;
+.advantages-gps, .advantages-camera, .advantages-timer {
+  top: -40px;
+  position: relative;
 }
 
-.advantages-gps:after {
-  background-image: url(../img/gps.jpg);
-  left: 40px;
+.advantages-gps {
+  left: 90px;
 }
 
-.advantages-camera:after {
-  background-image: url(../img/camera.jpg);
-  left: 60px;
+.advantages-camera {
+  left: 110px;
 }
 
-.advantages-timer:after {
-  background-image: url(../img/time.jpg);
-  left: 70px;
+.advantages-timer {
+  left: 110px;
 }
 
 // catalog-top
@@ -466,6 +461,10 @@ input, textarea, select {
 
 .catalog-item {
   border: 1px solid #000;
+}
+
+.catalog-item li {
+  list-style-type: none;
 }
 
 /*consult*/
@@ -564,7 +563,7 @@ input, textarea, select {
 
 // footer
 
-footer {
+.page-footer {
   background-color: #383A46;
   font-size: 16px;
 }
@@ -573,6 +572,6 @@ footer a {
   text-decoration: none;
 }
 
-.footer-item {
-
+.footer-item li{
+  list-style-type: none;
 }
