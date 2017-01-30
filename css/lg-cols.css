@@ -161,7 +161,7 @@ html {
 
 .header-logo a {
   font-size: 20px;
-  text-decoration: none;  
+  text-decoration: none;
   color: #444;
 }
 
@@ -214,9 +214,9 @@ html {
   font-size: 14px;
 }
 
-.inputbox {
+.menu-order .inputbox {
   padding: 10px;
-  width: 270px;
+  width: 292px;
   margin-top: 10px;
   font-size: 14px;
 }
@@ -317,7 +317,7 @@ input, textarea, select {
   width: 132px;
   position: absolute;
   top: 22px;
-  right: -20px;
+  right: -70px;
 }
 
 .btn-red {
@@ -331,8 +331,8 @@ input, textarea, select {
   margin-top: 2px;
   display: inline-block;
   text-align: center;
-  vertical-align: middle; 
-  cursor: pointer; 
+  vertical-align: middle;
+  cursor: pointer;
 }
 
 .btn-red span {
@@ -377,7 +377,7 @@ input, textarea, select {
   padding: 23px 0 17px;
 }
 
-.offer-block:first-child {
+.offer .offer-block:first-child {
   margin-bottom: 330px;
 }
 
@@ -394,7 +394,7 @@ input, textarea, select {
   letter-spacing: -0.7px;
   display: block;
   height: 26px;
-  margin-top: 5px;  
+  margin-top: 5px;
 }
 
 .offer-form .inputbox {
@@ -402,10 +402,13 @@ input, textarea, select {
   background-color: #fff;
   opacity: 1;
   margin-top: 0;
+  font-size: 14px;
+  padding: 10px;
 }
 
+
 .offer-form .btn-green {
-  margin: 5px;
+  margin-top: 3px;
   font-size: 16px;
 }
 
@@ -465,4 +468,60 @@ input, textarea, select {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 470px 0 50px 0;
+}
+
+.consult-form .inputbox {
+  padding: 10px;
+  width: 223px;
+  // margin-top: 10px;
+  font-size: 13px;
+}
+
+.consult-text {
+  font-size: 25px;
+  word-spacing: -2px;
+  letter-spacing: -1px;
+  padding-left: 30px;
+}
+
+.consult-form .btn-green {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+// seo
+.seo {
+  padding: 35px 0 55px 0;
+}
+
+.seo-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin: 35px 0 15px 0;
+}
+
+.seo p {
+  font-size: 14px;
+  text-align: justify;
+  font-weight: lighter;
+  width: 1015px;
+  margin: 0 auto;
+}
+
+.seo-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.seo-link:hover {
+  text-decoration: underline;
+}
+
+.seo-title2 {
+  font-size: 18px;
+  margin: 15px 0;
+  font-weight: 300;
+  text-align: center;
 }
