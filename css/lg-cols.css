@@ -458,8 +458,15 @@ input, textarea, select {
   left: 70px;
 }
 
+// catalog-top
 
+.product-mask {
+  display: none;
+}
 
+.catalog-item {
+  border: 1px solid #000;
+}
 
 /*consult*/
 .consult {
@@ -555,3 +562,17 @@ input, textarea, select {
   margin-bottom: 24px;
 }
 
+// footer
+
+footer {
+  background-color: #383A46;
+  font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer-item {
+
+}
