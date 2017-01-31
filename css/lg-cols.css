@@ -599,10 +599,26 @@ input, textarea, select {
 
 /*offer-bottom*/
 
+.offer-bottom {
+  padding-bottom: 50px;
+}
+
 .offer-bottom-title {
   font-size: 22px;
   font-weight: lighter;
   text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.offer-bottom-title:after {
+  content: "";
+  position: absolute;
+  width: 980px;
+  height: 1px;
+  bottom: 25px;
+  left: 90px;
+  background-color: #ccc;
 }
 
 /* seo*/
