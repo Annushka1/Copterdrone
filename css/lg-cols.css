@@ -178,6 +178,8 @@ html {
 
 .telephone-number {
   font-size: 22px;
+  line-height: 20px;
+  font-weight: 300;
 }
 
 .menu-order {
