@@ -297,6 +297,10 @@ input, textarea, select {
   margin-left: 70px;
 }
 
+.main-nav .row {
+  margin: 0;
+}
+
 .main-nav:before {
  content: "";
   background-color: #1abc9c;
@@ -315,7 +319,7 @@ input, textarea, select {
   width: 132px;
   position: absolute;
   top: 28px;
-  right: 40px;
+  right: 30px;
 }
 
 .btn-red {
