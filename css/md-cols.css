@@ -64,6 +64,10 @@
 		font-size: 19px;
 	}
 
+	.site-telefone-item {
+		margin-bottom: 10px;
+	}
+
 	.main-nav:before {
 		/*width: 70px;
     left: 10px;
@@ -115,6 +119,10 @@
 
 	.btn-basket {
 		margin: 0 0 5px 25px;
+	}
+
+	.offer-bottom-title:after {
+		width: 780px;
 	}
 
 	.consult-text {
