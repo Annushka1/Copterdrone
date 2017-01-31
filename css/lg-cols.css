@@ -150,7 +150,41 @@ html {
 .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
 .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { float: left; }
 
+.col-xs-five,
+.col-sm-five,
+.col-md-five,
+.col-lg-five {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
+.col-xs-five {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-five {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-five {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-five {
+        width: 20%;
+        float: left;
+    }
+}
 
 
 /*header*/
@@ -570,8 +604,25 @@ input, textarea, select {
   right: 8px;
 }
 
+.stars-block {
+  padding-left: 10px;
+}
+
 .star {
+  background-image: url(../img/stars-min.png);
   display: inline-block;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  height: 10px;
+  width: 12px;
+}
+
+.empty {
+  background-position: -24px 0px;
+}
+
+.half {
+  background-position: -12px 0px;
 }
 
 .price-block {
@@ -702,7 +753,8 @@ input, textarea, select {
 .page-footer {
   background-color: #383A46;
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: 300;
+  line-height: 20px;
 }
 
 .footer-items {
