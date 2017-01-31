@@ -505,7 +505,6 @@ input, textarea, select {
   height: 315px;
   border-radius: 3px;
   margin: 0 0 -1px -1px;
-  padding: 4px 0 0 0;
 }
 
 .catalog-item:hover {
@@ -517,8 +516,9 @@ input, textarea, select {
 }
 
 .catalog-item img {
-  width: 100%;
+  width: 394px;
   height: 100%;
+  bgp
 }
 
 .item-title {
