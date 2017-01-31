@@ -339,11 +339,6 @@ input, textarea, select {
   font-size: 10px;
 }
 
-.btn-red:hover, .nav-item:hover {
-  transform: translateY(-5px);
-      transition-duration: 0.3s;
-}
-
 /*offer*/
 .offer {
   background-image: url(../img/main1920.jpg);
