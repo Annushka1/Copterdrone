@@ -505,6 +505,7 @@ input, textarea, select {
   height: 315px;
   border-radius: 3px;
   margin: 0 0 -1px -1px;
+  padding: 0;
 }
 
 .catalog-item:hover {
@@ -547,8 +548,10 @@ input, textarea, select {
 }
 
 .btn-basket {
-  margin: 0 20px 0 50px;
-  padding: 7px 35px 7px 10px;
+  margin: 0 0 5px 35px;
+  width: 85px;
+  height: 28px;
+  padding: 7px 35px 7px 7px;
   font-size: 14px;
   position: relative;
   color: #fff;
