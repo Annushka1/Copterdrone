@@ -632,7 +632,7 @@ input, textarea, select {
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  margin: 35px 0 15px 0;
+  margin-bottom: 15px;
 }
 
 .seo p {
