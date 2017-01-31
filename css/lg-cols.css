@@ -511,8 +511,7 @@ input, textarea, select {
 }
 
 .catalog-item img {
-  height: 210px;
-  width: 384px;
+  background-size: cover;
 }
 
 .item-title {
@@ -521,6 +520,7 @@ input, textarea, select {
   text-decoration: none;
   padding-left: 15px;
   display: inline-block;
+  min-height: 37px;
 }
 
 .item-title:hover {
