@@ -60,10 +60,15 @@
 	.col-md-5, .col-md-6,  .col-md-7,  .col-md-8,
 	.col-md-9, .col-md-10, .col-md-11, .col-md-12 { float: left; }
 
+	.logo-text {
+		font-size: 19px;
+	}
+
 	.main-nav:before {
-		width: 70px;
+		/*width: 70px;
     left: 10px;
-    top: 28px;
+    top: 28px;*/
+    background-color: transparent;
 	}
 
 	.nav-item {
@@ -75,9 +80,10 @@
 	}
 
 	.main-nav:after {
-		width: 70px;
+		background-color: transparent;
+		/*width: 70px;
 		right: 30px;
-		top: 34px;
+		top: 34px;*/
 	}
 
 	.nav-item:first-child {
@@ -101,6 +107,26 @@
 
 	.advantages-items:before {
 		width: 780px;
+	}
+
+	.item-price {
+		font-size: 17px;
+	}
+
+	.btn-basket {
+		margin: 0 0 5px 25px;
+	}
+
+	.consult-text {
+		font-size: 22px;
+	}
+
+	.consult-form .btn-green {
+		margin-left: 10px;
+	}
+
+	.page-footer {
+		font-size: 14px;
 	}
 }
 
