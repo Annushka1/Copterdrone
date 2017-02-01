@@ -61,6 +61,12 @@
 	.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 { float: left; }
 
 
+
+.col-sm-five {
+        width: 20%;
+        float: left;
+    }
+
   .burger {
     border: 2px solid #21bdc7;
     width: 40px;

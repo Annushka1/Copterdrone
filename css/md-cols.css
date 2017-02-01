@@ -60,6 +60,11 @@
 	.col-md-5, .col-md-6,  .col-md-7,  .col-md-8,
 	.col-md-9, .col-md-10, .col-md-11, .col-md-12 { float: left; }
 
+  .col-md-five {
+    width: 20%;
+    float: left;
+  }
+
 
 	.logo-text {
 		font-size: 19px;
