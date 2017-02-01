@@ -535,7 +535,8 @@ input, textarea, select {
 
 .product-mask li {
   display: block;
-  margin-bottom: 5px;
+  font-size: 17px;
+  line-height: 21px;
 }
 
 // .product-mask {
