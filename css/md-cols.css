@@ -60,6 +60,7 @@
 	.col-md-5, .col-md-6,  .col-md-7,  .col-md-8,
 	.col-md-9, .col-md-10, .col-md-11, .col-md-12 { float: left; }
 
+
 	.logo-text {
 		font-size: 19px;
 	}
@@ -69,9 +70,6 @@
 	}
 
 	.main-nav:before {
-		// width: 50px;
-  //   left: 10px;
-  //   top: 28px;
     background-color: transparent;
 	}
 
@@ -85,9 +83,6 @@
 
 	.main-nav:after {
 		background-color: transparent;
-		// width: 50px;
-		// right: 30px;
-		// top: 34px;
 	}
 
 	.nav-item:first-child {
@@ -139,6 +134,18 @@
 
 	.consult-form .btn-green {
 		margin-left: 10px;
+	}
+
+	.footer-item ul {
+		font-size: 14px;
+	}
+
+	.footer-item li {
+		padding: 10px 0 0 0;
+	}
+
+	.footer-item a {
+		font-size: 12px;
 	}
 
 	.page-footer {

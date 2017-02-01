@@ -60,7 +60,8 @@
 	.col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
 	.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 { float: left; }
 
-	.burger {
+
+  .burger {
     border: 2px solid #21bdc7;
     width: 40px;
     height: 40px;
@@ -125,4 +126,21 @@
 	.main-nav {
 		display: none;
 	}
+
+
+  .footer-item ul {
+    font-size: 14px;
+  }
+
+  .footer-item li {
+    padding: 10px 0 0 0;
+  }
+
+  .footer-item a {
+    font-size: 12px;
+  }
+
+  .page-footer {
+    font-size: 14px;
+  }
 }

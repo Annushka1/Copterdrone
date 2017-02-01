@@ -104,7 +104,7 @@ html {
 .col-lg-11 { width: 91.66667%; }
 .col-lg-12 { width: 100%; }
 
-.ccccc { right: auto; }
+.col-lg-pul-0 { right: auto; }
 .col-lg-pull-1 { right: 8.33333%; }
 .col-lg-pull-2 { right: 16.66667%; }
 .col-lg-pull-3 { right: 25%; }
@@ -156,35 +156,39 @@ html {
 .col-lg-five {
     position: relative;
     min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.col-xs-five {
-    width: 20%;
-    float: left;
+
+@media (min-width: 320px) and (max-width: 739px) {
+    .col-xs-five {
+        width: 20%;
+        float: left;
+    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 740px) and (max-width: 959px) {
     .col-sm-five {
         width: 20%;
         float: left;
     }
 }
 
-@media (min-width: 992px) {
-    .col-md-five {
-        width: 20%;
-        float: left;
-    }
+@media (min-width: 960px) and (max-width: 1159px) {
+  .col-md-five {
+    width: 20%;
+    float: left;
+  }
 }
 
-@media (min-width: 1200px) {
-    .col-lg-five {
-        width: 20%;
-        float: left;
-    }
+.col-lg-five {
+  width: 20%;
+  float: left;
 }
+
+
+
 
 
 /*header*/
