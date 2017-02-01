@@ -500,36 +500,76 @@ input, textarea, select {
 
 .bx_catalog_item_images {
     position: relative;
-    z-index: 98;
+    // z-index: 98;
     display: block;
     height: 210px;
     width: 100%;
     margin-top: 1%;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
-}
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // -webkit-background-size: contain;
+/}
 
 .product-mask {
-    background: rgba(255,255,255,0.85);
-    backface-visibility: hidden;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: -4px;
-    height: 195px;
-    opacity: 0;
-    transition: all 0.25s ease-in-out 0s;
-    bottom: auto;
-    transform: translateY(0%);
-    color: #000;
-    padding: 10px 20px;
-    width: 354px;
-    z-index: 100;
-    visibility: hidden;
-    font-size: 17px;
-    line-height: 21px;
+  position: absolute;
+  display: none;
+  background: rgba(255,255,255,0.85);
+  left: 0;
+  top: 0;
+  font-size: 17px;
+  color: #575757;
+  width: 100%;
+  height: 195px;
+  padding: 20px 20px 0 20px;
+  min-height: 142px;
+}
+
+.catalog-item:hover .product-mask {
+  display: block;
+  transition: all 0.5s ease;
+}
+
+
+.product-mask li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+// .product-mask {
+//     background: rgba(255,255,255,0.85);
+//     backface-visibility: hidden;
+//     left: 0;
+//     position: absolute;
+//     right: 0;
+//     top: -4px;
+//     height: 195px;
+//     opacity: 0;
+//     transition: all 0.25s ease-in-out 0s;
+//     bottom: auto;
+//     transform: translateY(0%);
+//     color: #000;
+//     padding: 10px 20px;
+//     width: 354px;
+//     z-index: 100;
+//     visibility: hidden;
+//     font-size: 17px;
+//     line-height: 21px;
+// }
+
+.btn-white {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-white:hover {
+  background: #19C15F;
+  color: #fff;
+  transition: all 0.15s ease-in-out 0s;
 }
 
 .catalog-item {
