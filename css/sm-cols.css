@@ -117,4 +117,12 @@
 	.block-logo .row {
 		position: relative;
 	}
+
+	.block-logo {
+		padding-bottom: 10px;
+	}
+
+	.main-nav {
+		display: none;
+	}
 }

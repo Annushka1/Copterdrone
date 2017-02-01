@@ -1,9 +1,17 @@
 $(document).ready(function() {
+
+  $('.burger').on('click', function(){
+    $('.main-nav').slideToggle();
+  });
+
 $('img.animated').hover(
  function() {
    $(this).addClass('shake'); // Добавляем класс bounce
   },
   function() {
    $(this).removeClass('shake'); // Убираем класс
- }
-)});
+ })
+
+
+
+});
