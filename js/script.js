@@ -15,5 +15,8 @@ $('img.animated').hover(
  $('.btn-red').on('click', function(){
     $('.menu-order').fadeIn();
   });
+ $('.callback_closer').on('click', function(){
+    $('.menu-order').fadeOut();
+  });
 
 });

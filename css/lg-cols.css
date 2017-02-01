@@ -272,6 +272,7 @@ input, textarea, select {
 
 .callback_closer:after {
   content: "";
+  cursor: pointer;
   position: absolute;
   width: 25px;
   height: 25px;
