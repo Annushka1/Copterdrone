@@ -413,7 +413,7 @@ input, textarea, select {
 
 .offer-form {
   padding: 10px 0;
-  height: 88px;
+  // height: 88px;
   padding: 25px 0;
 }
 
@@ -812,5 +812,23 @@ input, textarea, select {
 .footer_info-link span {
   color: #00a89f;
 }
+
+
+
+/*professional*/
+
+.offer-proffessional .offer-block {
+  padding-bottom: 50px;
+  padding-top: 0;
+  margin-bottom: 310px;
+}
+
+.offer-proffessional {
+  background-image: url(../img/main480_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 
