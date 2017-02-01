@@ -2,70 +2,70 @@
     font-family: 'fira_sanslight';
     src: url('font/fira-sans.light-webfont.eot');
     src: url('font/fira-sans.light-webfont.eot?#iefix') format('embedded-opentype'),
-    		 url('font/fira-sans.light-webfont.ttf') format('truetype'),
+         url('font/fira-sans.light-webfont.ttf') format('truetype'),
          url('font/fira-sans.light-webfont.woff2') format('woff2'),
          url('font/fira-sans.light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 * {
-	/*font-family: sans-serif;*/
-	font-family: 'fira_sanslight', sans-serif;
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  /*font-family: sans-serif;*/
+  font-family: 'fira_sanslight', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-	font-family: 'fira_sanslight';
-	font-size: 10px;
+  font-family: 'fira_sanslight';
+  font-size: 10px;
 }
 /* Модульная сетка от 1200 px */
 .container {
-	width: 1160px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+  width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .container:before {
-	display: block;
-	content: '';
-	}
+  display: block;
+  content: '';
+  }
 .container:after {
-	display: block;
-	content: '';
-	clear: both;
+  display: block;
+  content: '';
+  clear: both;
 }
 .container-fluid {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .container-fluid:before {
-	display: block;
-	content: '';
+  display: block;
+  content: '';
 }
 .container-fluid:after {
-	display: block;
-	content: '';
-	clear: both;
+  display: block;
+  content: '';
+  clear: both;
 }
 .row {
-	min-height: 1px;
-	margin-left: -15px;
-	margin-right: -15px;
+  min-height: 1px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .row:before {
-	display: block;
-	content: '';
+  display: block;
+  content: '';
 }
 .row:after {
-	display: block;
-	content: '';
-	clear: both;
+  display: block;
+  content: '';
+  clear: both;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
 .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
@@ -79,10 +79,10 @@ html {
 .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
 .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
 .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-	position: relative;
-	min-height: 1px;
-	padding-left: 10px;
-	padding-right: 10px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .clearfix {
   content:'';
@@ -156,37 +156,15 @@ html {
 .col-lg-five {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-
-// @media (min-width: 320px) and (max-width: 739px) {
-//     .col-xs-five {
-//         width: 20%;
-//         float: left;
-//     }
-// }
-
-// @media (min-width: 740px) and (max-width: 959px) {
-//     .col-sm-five {
-//         width: 20%;
-//         float: left;
-//     }
-// }
-
-// @media (min-width: 960px) and (max-width: 1159px) {
-//   .col-md-five {
-//     width: 20%;
-//     float: left;
-//   }
-// }
 
 .col-lg-five {
   width: 20%;
   float: left;
 }
-
 
 
 
@@ -227,8 +205,8 @@ html {
 .menu-order {
   display: none;
   margin: -150px auto 0px -200px;
-  width: 400px;
-  height: 300px;
+  width: 420px;
+  height: 320px;
   padding: 10px;
   background-color: #383A46;
   border-radius: 3px;
@@ -240,9 +218,14 @@ html {
   color: #fff;
 }
 
+.menu-order .btn-green {
+  font-size: 16px;
+}
+
 .order-title {
-  font-size: 16pt;
+  font-size: 21px;
   margin: 20px 0 7px 0;
+  line-height: 21px;
 }
 
 .order-text {
@@ -292,7 +275,7 @@ input, textarea, select {
   position: absolute;
   width: 25px;
   height: 25px;
-  top: -290px;
+  top: -287px;
   right: -205px;
   background-image: url(../img/closewindow.jpg);
 }
@@ -827,3 +810,5 @@ input, textarea, select {
 .footer_info-link span {
   color: #00a89f;
 }
+
+

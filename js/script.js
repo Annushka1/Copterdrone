@@ -12,6 +12,8 @@ $('img.animated').hover(
    $(this).removeClass('shake'); // Убираем класс
  })
 
-
+ $('.btn-red').on('click', function(){
+    $('.menu-order').fadeIn();
+  });
 
 });
