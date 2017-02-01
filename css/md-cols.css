@@ -113,6 +113,14 @@
 		width: 780px;
 	}
 
+	.product-mask {
+		font-size: 15px;
+	}
+
+	.btn-white {
+		font-size: 14px;
+	}
+
 	.item-price {
 		font-size: 17px;
 	}

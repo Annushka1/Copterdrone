@@ -529,6 +529,9 @@ input, textarea, select {
   transition: all 0.5s ease;
 }
 
+.product-mask ul {
+  height: 150px;
+}
 
 .product-mask li {
   display: inline-block;
