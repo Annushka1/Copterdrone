@@ -311,19 +311,17 @@ input, textarea, select {
   border-bottom: 1px solid #AFE2D8;
   border-top: 1px solid #AFE2D8;
   position: relative;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-item {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  margin: 20px 10px 20px 10px;
+  margin: 20px 20px 20px 20px;
   display: inline-block;
   cursor: pointer;
-}
-
-.nav-item:first-child {
-  margin-left: 70px;
 }
 
 .main-nav .row {
