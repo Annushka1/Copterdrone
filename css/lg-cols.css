@@ -313,13 +313,14 @@ input, textarea, select {
   position: relative;
   display: flex;
   justify-content: space-around;
+  padding: 5px 230px 0 160px;
 }
 
 .nav-item {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  margin: 20px 20px 20px 20px;
+  margin: 15px 20px 20px 0;
   display: inline-block;
   cursor: pointer;
 }
